@@ -1,9 +1,18 @@
 ﻿using System;
 using SmartWarehouseManagement;
+using DynamicOnlineMarketPlace;
+using UniversityCourseManagement;
+using MealPlanSystem;
+using ResumeScreeningSystem;
+
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        SmartWareMain.Run();
+        // SmartWareMain.Run();
+        // MarketPlaceMain.Execute();
+        // UniversityCourseMain.Start();
+        // MealPlanMain.Start();
+        ResumeScreeningMain.Start();
     }
 }
